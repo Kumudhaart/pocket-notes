@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.div{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width:20vw;
+    background:white;
+    height:100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  
+  scrollbar {
+    width: 10px;
+  }
+  
+
+  scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+
+  scrollbar-thumb {
+    background: #888;
+  }
+
+.pocket{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 41px;
+    letter-spacing: 0.02em;
+    text-align:center;
+    text-transform: capitalize;
+}
+
+.button{
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    background: #16008B;
+    color:white;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    position:fixed;
+    bottom: 20px; 
+    left:250px;
+    z-index: 100;
+
+}
+
+@media (max-width: 600px) {
+  .div {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+}

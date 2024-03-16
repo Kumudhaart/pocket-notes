@@ -1,0 +1,59 @@
+.rightSidePannel{
+    background: #F7ECDC;
+    width: 80vw;
+    height: 100vh;
+}
+
+@media(max-width: 600px) {
+    .rightSidePannel{
+        display: none;
+    }
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageText1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.06rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageText2{
+    color: #292929;
+    font-family: Roboto;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; 
+    letter-spacing: 0.02rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.endToEnd{
+    color: #292929;
+    font-family: Roboto;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; 
+    letter-spacing: 0.02rem; 
+    position: absolute;
+    bottom: 3%;
+
+}

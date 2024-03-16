@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.heading{
+    font-family: Roboto;
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0.03em;
+}
+
+.group_name_div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+.group_names{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0.035em;
+}
+
+.input{
+    width: 320px;
+    height: 30px;
+    border-radius: 22px;
+    border: 2px solid #CCCCCC;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0.03em;
+    padding:5px;
+}
+
+.choose_color{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+
+.colors{
+    width:320px;
+}
+
+.create_btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 11px;
+    background:#001F8B ;
+    color: white;
+    outline: none;
+    border: none;
+    float: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+.err{
+    color:red;
+    font-size: small;
+    padding-left: 12px;
+}
+
+.circle_button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    outline: none;
+    border:0;
+    margin: 0.3rem;
+  }
+  
+.selected{
+    width: 30px;
+    height: 30px;
+    border:2px solid blue;
+    border-radius: 50%;
+}
+
+.label{
+    margin-bottom: 10px;
+}
+

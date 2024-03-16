@@ -1,0 +1,57 @@
+.mainpage{
+    display:flex;
+    
+}
+
+@media (max-width: 600px) {
+    .hideWhenMobile {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    .hideWhenPc{
+      display: none;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .create {  
+      width: 80vw;
+      height: 41px;
+      position: center;
+      left: 11px;
+    }
+  }
+  .placeHold {
+    border-radius: 1.375rem;
+    border: 2px solid #ccc;
+    background: #fff;
+    height: 27px;
+    width: 211px;
+  }
+  
+  .placeHold::placeholder {
+    position: relative;
+    left: 11px;
+  }
+  
+  .Text1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.8125rem;
+    font-style: normal;
+    font-weight: 579;
+    line-height: 160.188%; /* 2.90338rem */
+    letter-spacing: 0.06344rem;
+  }
+  
+  .Text2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.70713rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160.188%; /* 2.73463rem */
+    letter-spacing: 0.05975rem;
+  }
